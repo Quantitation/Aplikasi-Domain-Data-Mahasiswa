@@ -105,5 +105,4 @@ Daftar lengkap dengan pembahasan ada pada lembar jawaban.
 
 ## 8. Pernyataan Bantuan AI
 
-Kerangka kode, data contoh, README, dan draf lembar jawaban dibuat dengan bantuan AI (Claude, Anthropic),
-kemudian dijalankan dan diuji. Pemahaman dan penyesuaian akhir dilakukan oleh penulis.
+Kerangka kode, data contoh, README, dan draf lembar jawaban dibuat dengan bantuan AI.
