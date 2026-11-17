@@ -105,4 +105,4 @@ Daftar lengkap dengan pembahasan ada pada lembar jawaban.
 
 ## 8. Pernyataan Bantuan AI
 
-Kerangka kode, data contoh, README, dan draf lembar jawaban dibuat dengan bantuan AI.
+Kerangka kode, data contoh, README dibuat dengan bantuan AI.
