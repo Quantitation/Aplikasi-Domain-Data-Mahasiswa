@@ -16,7 +16,7 @@ def bersihkan_baris(baris):
         raise ValueError("Nama/prodi tidak boleh kosong")
     try:
         semester = int(baris.get("semester"))
-        ipk = float(str(baris.get("ipk")).replace(",", "."))  # terima "3,75"
+        ipk = float(str(baris.get("ipk")).replace(",", "."))
     except (TypeError, ValueError):
         raise ValueError("Semester/IPK bukan angka") from None
     if not 1 <= semester <= 14:
