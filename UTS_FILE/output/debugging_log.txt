@@ -1,0 +1,21 @@
+### 1. GEJALA: program crash (versi lama validator)
+$ python versi_bug.py
+Traceback (most recent call last):
+  File "/tmp/versi_bug.py", line 4, in <module>
+    ipk = float(baris["ipk"])          # versi lama: tanpa penanganan
+          ^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '3,72'
+
+### 2. INVESTIGASI: cetak isi variabel sebelum baris yang error
+data ke-1: nim='2301001' ipk='3,72'
+data ke-2: nim='2301002' ipk='abc'
+
+### 3. PERBAIKAN: ganti koma->titik, bungkus try/except ValueError, lapor baris bermasalah
+$ python main.py bersihkan data/mahasiswa_kotor.csv
+[INFO] Dibaca: 8 | Valid: 3 | Duplikat dibuang: 1 | Dipakai: 2
+[PERINGATAN] Data ke-2: Semester/IPK bukan angka
+[PERINGATAN] Data ke-3: IPK 4.5 di luar rentang 0.00-4.00
+[PERINGATAN] Data ke-4: NIM harus angka, ditemukan 'A301004'
+[PERINGATAN] Data ke-5: Nama/prodi tidak boleh kosong
+[PERINGATAN] Data ke-6: Semester 20 di luar rentang 1-14
+[INFO] Data bersih: 2 baris

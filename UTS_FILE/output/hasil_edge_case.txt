@@ -1,0 +1,31 @@
+$ python main.py bersihkan data/mahasiswa_kotor.csv --simpan output/kotor_bersih.json
+[INFO] Dibaca: 8 | Valid: 3 | Duplikat dibuang: 1 | Dipakai: 2
+[PERINGATAN] Data ke-2: Semester/IPK bukan angka
+[PERINGATAN] Data ke-3: IPK 4.5 di luar rentang 0.00-4.00
+[PERINGATAN] Data ke-4: NIM harus angka, ditemukan 'A301004'
+[PERINGATAN] Data ke-5: Nama/prodi tidak boleh kosong
+[PERINGATAN] Data ke-6: Semester 20 di luar rentang 1-14
+[INFO] Data bersih: 2 baris
+[OK] Hasil disimpan ke output/kotor_bersih.json
+[exit code: 0]
+
+$ python main.py filter data/header_saja.csv
+[INFO] Dibaca: 0 | Valid: 0 | Duplikat dibuang: 0 | Dipakai: 0
+(Tidak ada data yang cocok)
+[exit code: 0]
+
+$ python main.py rekap data/header_saja.csv
+[INFO] Dibaca: 0 | Valid: 0 | Duplikat dibuang: 0 | Dipakai: 0
+(Tidak ada data untuk direkap)
+[exit code: 0]
+
+$ python main.py filter data/mahasiswa.csv --prodi Manajemen --min-ipk 3.95
+[INFO] Dibaca: 16 | Valid: 16 | Duplikat dibuang: 1 | Dipakai: 15
+(Tidak ada data yang cocok)
+[exit code: 0]
+
+$ python main.py cari data/mahasiswa.csv zzz
+[INFO] Dibaca: 16 | Valid: 16 | Duplikat dibuang: 1 | Dipakai: 15
+(Tidak ada data yang cocok)
+[exit code: 0]
+

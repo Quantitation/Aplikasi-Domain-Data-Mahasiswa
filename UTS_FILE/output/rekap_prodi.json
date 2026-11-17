@@ -1,0 +1,26 @@
+{
+  "Teknik Informatika": {
+    "jumlah": 5,
+    "rata_ipk": 3.27,
+    "tertinggi": 3.72,
+    "terendah": 2.85
+  },
+  "Sistem Informasi": {
+    "jumlah": 4,
+    "rata_ipk": 3.2,
+    "tertinggi": 3.8,
+    "terendah": 2.6
+  },
+  "Manajemen": {
+    "jumlah": 3,
+    "rata_ipk": 3.2,
+    "tertinggi": 3.91,
+    "terendah": 2.4
+  },
+  "Akuntansi": {
+    "jumlah": 3,
+    "rata_ipk": 2.94,
+    "tertinggi": 3.55,
+    "terendah": 1.95
+  }
+}

@@ -1,0 +1,22 @@
+$ python main.py rekap data/tidak_ada.csv
+[ERROR] File tidak ditemukan: data/tidak_ada.csv
+[exit code: 1]
+
+$ python main.py rekap data/kosong.csv
+[ERROR] Data bermasalah: File CSV kosong (tidak ada header)
+[exit code: 1]
+
+$ python main.py rekap data/rusak.json
+[ERROR] Data bermasalah: JSON tidak valid: Expecting ',' delimiter: line 1 column 17 (char 16)
+[exit code: 1]
+
+$ python main.py rekap data/mahasiswa.txt
+[ERROR] Data bermasalah: Format '.txt' tidak didukung (gunakan .csv/.json)
+[exit code: 1]
+
+$ python main.py rekap data/header_saja.csv --simpan output/x.csv
+[INFO] Dibaca: 0 | Valid: 0 | Duplikat dibuang: 0 | Dipakai: 0
+(Tidak ada data untuk direkap)
+[ERROR] Gagal menyimpan/memproses: Tidak ada data untuk disimpan
+[exit code: 1]
+

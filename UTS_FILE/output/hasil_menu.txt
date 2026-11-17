@@ -1,0 +1,87 @@
+=== Aplikasi Pengolah Data Mahasiswa ===
+[INFO] Dibaca: 16 | Valid: 16 | Duplikat dibuang: 1 | Dipakai: 15
+
+========================================================================
+[1.Rekap]  2.Cari   3.Filter   4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): 
+========================================================================
+[1.Rekap]  2.Cari   3.Filter   4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Prodi               Jumlah  Rata IPK  Max   Min
+--------------------------------------------------
+Akuntansi           3       2.94      3.55  1.95
+Manajemen           3       3.20      3.91  2.40
+Sistem Informasi    4       3.20      3.80  2.60
+Teknik Informatika  5       3.27      3.72  2.85
+Simpan hasil? Ketik nama file .csv/.json (Enter = lewati): 
+========================================================================
+[1.Rekap]  2.Cari   3.Filter   4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): 
+========================================================================
+ 1.Rekap  [2.Cari]  3.Filter   4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Kata kunci (nama atau NIM): NIM      Nama              Prodi               Smt  IPK   Predikat
+------------------------------------------------------------------------
+2301002  Siti Aminah       Sistem Informasi    5    3.45  Baik
+Simpan hasil? Ketik nama file .csv/.json (Enter = lewati): 
+========================================================================
+ 1.Rekap  [2.Cari]  3.Filter   4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): 
+========================================================================
+ 1.Rekap   2.Cari  [3.Filter]  4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Prodi tersedia: Akuntansi, Manajemen, Sistem Informasi, Teknik Informatika
+Nama prodi (Enter = semua prodi): IPK minimum 0-4 (Enter = 0): NIM      Nama              Prodi               Smt  IPK   Predikat
+------------------------------------------------------------------------
+2301001  Andi Pratama      Teknik Informatika  5    3.72  Cum Laude
+2301014  Rani Oktavia      Teknik Informatika  1    3.67  Cum Laude
+Simpan hasil? Ketik nama file .csv/.json (Enter = lewati): [OK] Hasil disimpan ke output/filter_menu.csv
+
+========================================================================
+ 1.Rekap   2.Cari  [3.Filter]  4.Bersihkan   5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): 
+========================================================================
+ 1.Rekap   2.Cari   3.Filter  [4.Bersihkan]  5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+[INFO] Data bersih (tanpa duplikat & data tidak valid): 15 baris
+Simpan hasil? Ketik nama file .csv/.json (Enter = lewati): 
+========================================================================
+ 1.Rekap   2.Cari   3.Filter  [4.Bersihkan]  5.Ganti File   0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): 
+========================================================================
+ 1.Rekap   2.Cari   3.Filter   4.Bersihkan  [5.Ganti File]  0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Path file .csv/.json: [ERROR] File tidak ditemukan: data/tidak_ada.csv
+
+========================================================================
+ 1.Rekap   2.Cari   3.Filter   4.Bersihkan  [5.Ganti File]  0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): [ERROR] Pilihan tidak dikenal, masukkan angka 0-5
+
+========================================================================
+ 1.Rekap   2.Cari   3.Filter   4.Bersihkan  [5.Ganti File]  0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): [ERROR] Pilihan tidak dikenal, masukkan angka 0-5
+
+========================================================================
+ 1.Rekap   2.Cari   3.Filter   4.Bersihkan  [5.Ganti File]  0.Keluar 
+File aktif: data/mahasiswa.csv (15 mahasiswa)
+========================================================================
+Pilih tab (angka): Sampai jumpa!

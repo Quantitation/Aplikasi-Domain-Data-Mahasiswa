@@ -1,0 +1,16 @@
+[
+  {
+    "nim": "2301001",
+    "nama": "Andi Pratama",
+    "prodi": "Teknik Informatika",
+    "semester": 5,
+    "ipk": 3.72
+  },
+  {
+    "nim": "2301007",
+    "nama": "Fajar Nugraha",
+    "prodi": "Manajemen",
+    "semester": 7,
+    "ipk": 3.28
+  }
+]

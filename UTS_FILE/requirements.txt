@@ -1,0 +1,1 @@
+# Tidak ada dependency pihak ketiga (hanya Python standard library)

@@ -1,0 +1,11 @@
+test_hapus_duplikat (test_akademik.TestAnalyzer.test_hapus_duplikat) ... ok
+test_predikat_batas (test_akademik.TestAnalyzer.test_predikat_batas) ... ok
+test_rekap_data_kosong (test_akademik.TestAnalyzer.test_rekap_data_kosong) ... ok
+test_rekap_normal (test_akademik.TestAnalyzer.test_rekap_normal) ... ok
+test_ipk_di_luar_rentang (test_akademik.TestValidator.test_ipk_di_luar_rentang) ... ok
+test_koma_desimal (test_akademik.TestValidator.test_koma_desimal) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
